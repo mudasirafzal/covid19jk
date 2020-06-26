@@ -53,9 +53,9 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
-    "start": "node server.js"
-    /*"start": "react-scripts start",
-    "build": "react-scripts build && npm run compress_maps && cp build/index.html build/404.html && npm run build-sw",
+
+    "start": "react-scripts start",
+    /*"build": "react-scripts build && npm run compress_maps && cp build/index.html build/404.html && npm run build-sw",
 */    "map_test": "react-scripts test src/__tests__/mapAndApiStateNames.test.js",
     "compress_maps": "rollup -c",
     "test": "react-scripts test --testPathIgnorePatterns=src/__tests__/mapAndApiStateNames.test.js",
