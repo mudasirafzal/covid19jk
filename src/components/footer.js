@@ -7,8 +7,7 @@ function Footer(props) {
 
   return (
     <footer className="fadeInUp" style={{animationDelay: '2s'}}>
-      <h5>{t('Lets stand with everyone fighting on the frontlines')}</h5>
-
+      
       <div className="link">
         <a
           href="https://www.linkedin.com/in/mudasir-afzal-61824678/"

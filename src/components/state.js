@@ -119,7 +119,10 @@ function State(props) {
         <div className="state-left">
           <div className="header">
             <div className="header-left">
-              <StateDropdown {...{stateCode}} />
+              <h1
+        className="state-name">
+        Jammu & Kashmir
+        </h1>
               <h5>{`Last Updated on ${formatDate(
                 data[stateCode].meta.last_updated,
                 'dd MMM, p'
