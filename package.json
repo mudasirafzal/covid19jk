@@ -1,8 +1,8 @@
 {
-  "name": "covid19jk",
+  "name": "covid19india",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://covid19jk.herokuapp.com/",
+  "homepage": "/",
   "dependencies": {
     "@juggle/resize-observer": "^3.2.0",
     "@primer/octicons-v2-react": "0.0.0-53e900d",
@@ -52,7 +52,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && npm run compress_maps && cp build/index.html build/404.html && npm run build-sw",
     "map_test": "react-scripts test src/__tests__/mapAndApiStateNames.test.js",
     "compress_maps": "rollup -c",
     "test": "react-scripts test --testPathIgnorePatterns=src/__tests__/mapAndApiStateNames.test.js",
